@@ -55,14 +55,14 @@ const controls = new OrbitControls(camera, renderer.domElement);
 //instantiates OrbitControls class
 //domElement listens to actions from mouse, and updates camera
 
-const backTexture = new THREE.TextureLoader().load('/Images/space.webp');
+const backTexture = new THREE.TextureLoader().load('/root/Images/space.webp');
 
 scene.background = backTexture;
 //Renders the Background
 
-const colorTexture = new THREE.TextureLoader().load('/Images/color.png');
-const sphereTexture = new THREE.TextureLoader().load('/Images/neptune.jpeg');
-const triangleTexture = new THREE.TextureLoader().load('/Images/triangle.jpeg');
+const colorTexture = new THREE.TextureLoader().load('/root/Images/color.png');
+const sphereTexture = new THREE.TextureLoader().load('/root/Images/neptune.jpeg');
+const triangleTexture = new THREE.TextureLoader().load('/root/Images/triangle.jpeg');
 
 const myColor = new THREE.Mesh(
 new THREE.BoxGeometry(3,3,3),
