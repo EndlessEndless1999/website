@@ -57,7 +57,7 @@ const controls = new OrbitControls(camera, renderer.domElement);
 
 const backTexture = new THREE.TextureLoader().load('/root/Images/space.webp');
 
-scene.background = backTexture;
+scene.background = new THREE.Color( 0xff0000 );
 //Renders the Background
 
 const colorTexture = new THREE.TextureLoader().load('/root/Images/color.png');
